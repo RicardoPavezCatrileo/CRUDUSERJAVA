@@ -1,10 +1,10 @@
 ﻿CREATE TABLE [dbo].[Usuarios]
 (
 	[Id_usuario] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [rut] NCHAR(10) NULL, 
-    [nombre] NCHAR(10) NOT NULL, 
-    [apellido] NCHAR(10) NOT NULL, 
-    [edad] NCHAR(10) NOT NULL, 
-    [fecha_nacimiento] NCHAR(10) NOT NULL, 
-    [sexo] NCHAR(10) NOT NULL
+    [rut] NVARCHAR(50) NULL, 
+    [nombre] NVARCHAR(50) NOT NULL, 
+    [apellido] NVARCHAR(50) NOT NULL, 
+    [edad] INT NOT NULL, 
+    [fecha_nacimiento] DATETIME NOT NULL, 
+    [sexo] NVARCHAR(10) NOT NULL
 )
