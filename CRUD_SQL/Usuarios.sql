@@ -6,5 +6,6 @@
     [apellido] NVARCHAR(50) NOT NULL, 
     [edad] INT NOT NULL, 
     [fecha_nacimiento] DATETIME NOT NULL, 
-    [sexo] NVARCHAR(10) NOT NULL
+    [sexo] NVARCHAR(10) NOT NULL, 
+    [ruta_de_inicio] NVARCHAR(50) NULL
 )
