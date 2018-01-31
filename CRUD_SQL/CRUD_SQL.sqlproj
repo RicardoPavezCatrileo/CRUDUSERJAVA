@@ -61,12 +61,8 @@
     <Folder Include="Tablas" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tablas\insertar_usuario.sql" />
-    <Build Include="Tablas\Log_actulizacion_usuario.sql" />
-    <Build Include="Procedimientos\actualizar_usuario.sql" />
-    <Build Include="Procedimientos\buscar_usuario.sql" />
-    <Build Include="Procedimientos\eliminar_usuario.sql" />
-    <Build Include="Procedimientos\Usuarios.sql" />
+    <Build Include="Usuarios.sql" />
+    <Build Include="insertar_usuario.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CRUD_SQL.refactorlog" />
