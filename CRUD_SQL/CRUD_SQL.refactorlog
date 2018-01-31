@@ -7,4 +7,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Id_usuario" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="615f682b-faee-4095-98bd-1f1d703920cc" ChangeDateTime="01/31/2018 20:21:06">
+    <Property Name="ElementName" Value="[dbo].[Log_actulizacion_usuario].[Exitoso]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Log_actulizacion_usuario]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Ejecucion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c498147-6a9d-4d55-a4c8-332f4bfd9f6e" ChangeDateTime="01/31/2018 20:21:20">
+    <Property Name="ElementName" Value="[dbo].[Log_actulizacion_usuario].[Ejecucion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Log_actulizacion_usuario]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ejecucion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa630fd0-696f-49af-a08d-cfb1975094c8" ChangeDateTime="01/31/2018 20:21:22">
+    <Property Name="ElementName" Value="[dbo].[Log_actulizacion_usuario].[Detalle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Log_actulizacion_usuario]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="detalle" />
+  </Operation>
 </Operations>
