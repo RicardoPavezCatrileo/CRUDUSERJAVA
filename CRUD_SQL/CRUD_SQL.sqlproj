@@ -57,14 +57,16 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Procedimientos" />
+    <Folder Include="Tablas" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Usuarios.sql" />
-    <Build Include="insertar_usuario.sql" />
-    <Build Include="Log_actulizacion_usuario.sql" />
-    <Build Include="actualizar_usuario.sql" />
-    <Build Include="eliminar_usuario.sql" />
-    <Build Include="buscar_usuario.sql" />
+    <Build Include="Tablas\insertar_usuario.sql" />
+    <Build Include="Tablas\Log_actulizacion_usuario.sql" />
+    <Build Include="Procedimientos\actualizar_usuario.sql" />
+    <Build Include="Procedimientos\buscar_usuario.sql" />
+    <Build Include="Procedimientos\eliminar_usuario.sql" />
+    <Build Include="Procedimientos\Usuarios.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CRUD_SQL.refactorlog" />
