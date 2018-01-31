@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Usuarios.sql" />
+    <Build Include="insertar_usuario.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CRUD_SQL.refactorlog" />
